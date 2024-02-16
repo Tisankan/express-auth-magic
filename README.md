@@ -21,26 +21,12 @@ Install the package using npm:
 ```bash
 npm install express-auth-magic
 ```
-##Usage
 
-Import the package into your Express.js application:
 
-```javascript
-
-const authMagic = require('express-auth-magic');
-```
-    Configure the authentication middleware with your preferred strategy:
-
-```javascript
-
-app.use(authMagic({ strategy: 'jwt', secret: 'your-secret-key' }));
-```
-Customize the middleware according to your application's requirements.
-
-##License
+## License
 This project is licensed under the MIT License.
 
-##Author
+## Author
 ```
 Contact : J.Tisankan 
 Email   : info.tisankan@gmail.com
