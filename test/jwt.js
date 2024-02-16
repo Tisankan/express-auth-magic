@@ -1,5 +1,3 @@
-// test/jwt.test.js
-
 const assert = require('assert');
 const express = require('express');
 const supertest = require('supertest');

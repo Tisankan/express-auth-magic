@@ -1,5 +1,3 @@
-// src/index.js
-
 const express = require('express');
 const jwtStrategy = require('./strategies/jwt');
 const sessionStrategy = require('./strategies/session');

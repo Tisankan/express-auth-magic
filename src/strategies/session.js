@@ -1,5 +1,3 @@
-// src/strategies/session.js
-
 const express = require('express');
 
 const sessionStrategy = (sessionSecret) => {
