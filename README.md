@@ -37,14 +37,6 @@ app.use(authMagic({ strategy: 'jwt', secret: 'your-secret-key' }));
 
     Customize the middleware according to your application's requirements.
 
-Documentation
-
-For detailed documentation and examples, please refer to the official documentation.
-Contributing
-
-We welcome contributions! Feel free to submit issues and pull requests.
-License
-
 This project is licensed under the MIT License.
 Contact : J.Tisankan 
         : info.tisankan@gmail.com
