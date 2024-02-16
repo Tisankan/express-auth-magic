@@ -1,0 +1,29 @@
+{
+  "name": "express-auth-magic",
+  "version": "1.0.3",
+  "description": "\"express-auth-magic\" is a comprehensive middleware package designed to seamlessly integrate user authentication into your Express.js applications, providing a magical experience for developers. This package supports various authentication strategies, including JSON Web Tokens (JWT), OAuth, and session-based authentication.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require esm test/**/*.js",
+    "start": "node examples/app.js"
+  },
+  "keywords": [
+    "express",
+    "authentication",
+    "middleware",
+    "jwt",
+    "session"
+  ],
+  "author": "Tisankan",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.3"
+  }
+}
